@@ -1,0 +1,58 @@
+body{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-size:1.5em;
+    font-style: normal;
+    scroll-behavior: smooth;
+    
+    background-color: gray;
+}
+
+h1 {
+    text-align:center;
+}
+
+h2 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 3em;
+    height: 2em;
+}
+
+/*   
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  } */
+
+input[type=submit]
+{
+    display: block;
+    margin: auto;
+    font-size: 1.5em;
+    height: 2em;
+    width: 50%;
+    background-color: white;
+    border-radius: 1em;
+   ;
+}
+
+input[name=valider]:hover
+{
+    color:white;
+    background-color: green;
+}
+
+a,a:active,a:hover{
+    text-decoration: none;
+    color:white;
+}
